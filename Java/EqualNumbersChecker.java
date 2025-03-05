@@ -1,3 +1,6 @@
+
+//It all three numbers are equal, print "All numbers are equal"
+
 public class EqualNumbersChecker {
     public static void main(String[] args) {
         int num1 = 5, num2 = 5, num3 = 5;

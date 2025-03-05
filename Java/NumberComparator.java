@@ -1,3 +1,5 @@
+//If any two numbers are equal, print "Two numbers are equal" and display the largest number.
+
 import java.util.Scanner;
 
 public class NumberComparator {
