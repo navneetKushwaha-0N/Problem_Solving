@@ -6,7 +6,7 @@ public class NumberComparator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Taking input from the user
+        // Taking  input from the user
         System.out.print("Enter first number: ");
         int num1 = scanner.nextInt();
         System.out.print("Enter second number: ");
