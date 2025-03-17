@@ -13,10 +13,10 @@ public class rowWiseswapping {
         System.out.println("Matrix after swapping row 0 and row 2:");
         printMatrix(matrix);
     }
-    public static void swapRows(int[][] matrices, int row1, int row2) {
-        int[] temp = matrices[row1];
-        matrices[row1] = matrices[row2];
-        matrices[row2] = temp;
+    public static void swapRows(int[][] Matrix, int row1, int row2) {
+        int[] temp = Matrix[row1];
+        Matrix[row1] = Matrix[row2];
+        Matrix[row2] = temp;
     }
 
     public static void printMatrix(int[][] matrix) {
