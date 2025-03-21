@@ -12,7 +12,7 @@ public class TwoDArray {
         int[][] array = new int[rows][cols];
 
         System.out.println("Enter the elements of the array:");
-        for (int i = 1; i < rows; i++) {
+        for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print("Element at [" + i + "][" + j + "]: ");
                 array[i][j] = sc.nextInt();
