@@ -1,7 +1,7 @@
 public class TrappingRainWater {
     public static int trap(int[] height) {
         if (height == null || height.length < 3) {
-            return 0; // No water can be trapped if there are less than 3 bars
+            return 0; // No water can be trapped if there are 
         }
 
         int n = height.length;
