@@ -9,13 +9,13 @@ public class array{
 
         //input
         System.out.println("Enter the elements");
-        for(int i=0; i< size; i++){
+        for(int i=0; i< arr.length; i++){
             arr[i] =sc.nextInt();
         }
 
         //output
         System.out.println("The elements is: " );
-        for(int i=0; i< size; i++){
+        for(int i=0; i< arr.length; i++){
            System.out.println(+arr[i]);
         }
 
